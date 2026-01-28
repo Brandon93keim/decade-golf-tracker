@@ -65,7 +65,7 @@ export default function RoundHistory({ rounds, onDeleteRound }: RoundHistoryProp
               className="w-full flex items-center justify-between"
             >
               <div className="text-left">
-                <div className="font-semibold">{round.courseName || round.course}</div>
+                <div className="font-semibold">{round.courseName}</div>
                 <div className="text-sm text-white/60">
                   {formatDate(round.date)}
                   {round.teeBoxName && ` • ${round.teeBoxName}`}
